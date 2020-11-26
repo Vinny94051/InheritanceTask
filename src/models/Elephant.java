@@ -1,9 +1,9 @@
-
+package models;
 public class Elephant extends Animals {
     private int weight;
     private int growth;
 
-    Elephant(String name, int weight, int growth) {
+    public Elephant(String name, int weight, int growth) {
         this.name = name;
         this.growth = growth;
         this.weight = weight;

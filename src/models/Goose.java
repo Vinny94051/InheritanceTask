@@ -1,8 +1,12 @@
-class Goose extends Animals implements Swimmable {
+package models;
+
+import logics.Swimmable;
+
+public class Goose extends Animals implements Swimmable {
     String featherColoring;
     boolean gooseHandsome;
 
-    Goose(String name, String featherColoring, boolean gooseHandsome) {
+    public Goose(String name, String featherColoring, boolean gooseHandsome) {
         this.name = name;
         this.featherColoring = featherColoring;
         this.gooseHandsome = gooseHandsome;

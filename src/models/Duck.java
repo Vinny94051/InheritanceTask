@@ -1,8 +1,11 @@
+package models;;
+import logics.Swimmable;
+
 public class Duck extends Animals implements Swimmable {
     private String featherColoring;
     private int age;
 
-    Duck(String name, String featherColoring, int age) {
+    public Duck(String name, String featherColoring, int age) {
         this.name = name;
         this.featherColoring = featherColoring;
         this.age = age;

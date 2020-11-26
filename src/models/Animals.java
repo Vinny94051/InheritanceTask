@@ -1,5 +1,7 @@
+package models;
+
 abstract public class Animals {
-    String name;
+   public String name;
 
     abstract void showInformation();
 }
