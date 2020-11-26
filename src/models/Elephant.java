@@ -9,6 +9,14 @@ public class Elephant extends Animals {
         this.weight = weight;
     }
 
+    public int getGrowth() {
+        return growth;
+    }
+
+    public int getWeight() {
+        return weight;
+    }
+
     @Override
     public String toString() {
         return "Elephant: " + this.name;

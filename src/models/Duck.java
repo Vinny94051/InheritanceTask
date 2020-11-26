@@ -11,6 +11,12 @@ public class Duck extends Animals implements Swimmable {
         this.age = age;
     }
 
+    public String getFeatherColoring(){
+        return featherColoring;
+    }
+
+    public int getAge(){return age;}
+
     @Override
     public String toString() {
         return "Duck: " + this.name;

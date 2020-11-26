@@ -3,13 +3,21 @@ package models;
 import logics.Swimmable;
 
 public class Goose extends Animals implements Swimmable {
-    String featherColoring;
-    boolean gooseHandsome;
+    private String featherColoring;
+    private boolean gooseHandsome;
 
     public Goose(String name, String featherColoring, boolean gooseHandsome) {
         this.name = name;
         this.featherColoring = featherColoring;
         this.gooseHandsome = gooseHandsome;
+    }
+
+    public String getFeatherColoring() {
+        return featherColoring;
+    }
+
+    public boolean getGooseHandsome(){
+        return gooseHandsome;
     }
 
     @Override
